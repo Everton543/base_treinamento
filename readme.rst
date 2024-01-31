@@ -1,4 +1,13 @@
 ###################
+Projeto Criado por Everton Alves
+###################
+Este projeto é a base que será usada para treinar futuros estagiários da
+empresa ANS Sistemas.
+O objetivo é ter a base com exemplos de estilo de código usado pela empresa 
+com o objetivo que futuros estagiários tentem resolver problemas de lógicas
+e aprender a usar as tecnologias que utilizamos na empresa.
+
+###################
 What is CodeIgniter
 ###################
 
