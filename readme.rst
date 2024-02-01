@@ -75,7 +75,7 @@ Funcionalidades do acesso Cliente:
 -No carrinho deve ter o botão de confirmar a compra
 
 ###################
-Desafios Opicionais
+Desafios Opcionais
 ###################
 - Faça com que seja possível ver a quantidade de lucro que a Loja teve no período(saiba que será necessário criar uma nova tabela no banco de dados para conseguir fazer isso de maneira eficaz)
 
