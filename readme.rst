@@ -16,12 +16,12 @@ Primeiros passos
 4- Clique em Apache (httpd.conf)
 5- No documento de texto aperto pesquise por "htdocs"
 6- Copie o trecho:
-   DocumentRoot "C:/xampp/htdocs"
-	 <Directory "C:/xampp/htdocs">
+	DocumentRoot "C:/xampp/htdocs"
+	<Directory "C:/xampp/htdocs">
 7- Cole o texto copiado abaixo do anterior
 8- Coloque # na frente do anterior como no exemplo:
-	 #DocumentRoot "C:/xampp/htdocs"
-	 #<Directory "C:/xampp/htdocs">
+	#DocumentRoot "C:/xampp/htdocs"
+	#<Directory "C:/xampp/htdocs">
 9- Substitua o caminho "C:/xampp/htdocs" tanto em DocumentRoot como em <Directory pelo caminho que está o projeto clonado no seu computador
 	 Exemplo:
 	 		DocumentRoot "C:/Users/NOME_DO_USUARIO/Documents/GitHub/base_treinamento"
