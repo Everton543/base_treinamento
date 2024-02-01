@@ -79,7 +79,7 @@ Desafios Opicionais
 ###################
 - Faça com que seja possível ver a quantidade de lucro que a Loja teve no período(saiba que será necessário criar uma nova tabela no banco de dados para conseguir fazer isso de maneira eficaz)
 
-- Fazer com que as lojas possam cadastrar, editar cupoms de disconto. A loja só pode deletar o cupom caso nenhum usuário tenha usado o cupom. E fazer com que os clientes consigam usar o cupom para ganhar o desconto no carrinho de acordo com as regras do cupom e quantidade disponível
+- Fazer com que as lojas possam cadastrar, editar cupoms de desconto. A loja só pode deletar o cupom caso nenhum usuário tenha usado o cupom. E fazer com que os clientes consigam usar o cupom para ganhar o desconto no carrinho de acordo com as regras do cupom e quantidade disponível
 
 - Fazer com que a lista de produtos nos acesso loja e cliente, possam ser filtrados por loja, categorias, preço mínimo, preço máximo, nome do produto, msotrar apenas os que possuem estoque
 
