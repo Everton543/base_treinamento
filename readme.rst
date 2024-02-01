@@ -8,6 +8,37 @@ com o objetivo que futuros estagiários tentem resolver problemas de lógicas
 e aprender a usar as tecnologias que utilizamos na empresa.
 
 ###################
+Primeiros passos
+###################
+1- Instale o XAMPP versão 7.2.34, onde com o Control Panel aberto aparece o nome da versão 3.2.4
+2- Clone este projeto no seu computador
+3- Abrindo o Control Panel do XAMPP, clique em Config na linha do Apache
+4- Clique em Apache (httpd.conf)
+5- No documento de texto aperto pesquise por "htdocs"
+6- Copie o trecho:
+   DocumentRoot "C:/xampp/htdocs"
+	 <Directory "C:/xampp/htdocs">
+7- Cole o texto copiado abaixo do anterior
+8- Coloque # na frente do anterior como no exemplo:
+	 #DocumentRoot "C:/xampp/htdocs"
+	 #<Directory "C:/xampp/htdocs">
+9- Substitua o caminho "C:/xampp/htdocs" tanto em DocumentRoot como em <Directory pelo caminho que está o projeto clonado no seu computador
+	 Exemplo:
+	 		DocumentRoot "C:/Users/NOME_DO_USUARIO/Documents/GitHub/base_treinamento"
+			<Directory "C:/Users/NOME_DO_USUARIO/Documents/GitHub/base_treinamento">
+10- No Control Panel do XAMPP Click em Start no Apache e no MySQL
+11- No Control Panel do XAMPP Click em Admin em MySQL que irá abrir o phpmyadmin
+12- No phpmyadmin crie um banco de dados com o nome "treinamento"
+13- Com o novo banco de dados selecionado, clique em Importar no menu superior do phpmyadmin
+14- Clique em Escolher arquivo
+15- Na janela para escolher o arquivo que será utilizado, navegue até o arquivo base que foi clonado do projeto e selecione
+	  o arquivo treinamento.sql (pode aparecer com apenas o nome treinamento).
+16- Com ele selecionado click em Abrir
+17- Desça na página até aparecer o botão Executar na parte inferior.
+18- Click no botão Executar
+
+
+###################
 What is CodeIgniter
 ###################
 
