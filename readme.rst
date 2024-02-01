@@ -55,6 +55,34 @@ Primeiros passos
 
 18- Click no botão Executar
 
+###################
+Desafio
+###################
+Funcionalidades do acesso Loja:
+
+-Lojas devem ser capaz de cadastrar, editar e deletar produtos. Lojas não podem deletar produtos caso alguém tenha comprado o produto
+
+-Lojas devem poder ver a lista de todas as vendas que ela teve com filtro de periodo (data inicial e data final)
+
+Funcionalidades do acesso Cliente:
+
+-Clientes devem ser capaz de ver todos os produtos que estão a venda e escolher comprar eles, colocando inclusive quantos produtos ele quer comprar, mas a quantidade de produtos não podem ser maior que a quantidade do estoque que o produto possui.
+
+-Quando o cliente clica em adicionar o produto no carrinho, é necessário atualizar o icone do carrinho mostrando a quantidade de produtos dentro do carrinho
+
+-Quando o cliente clica no carrinho ele deve ser capaz de editar a quantidade de cada item e remover item do carrinho. 
+
+-No carrinho deve ter o botão de confirmar a compra
+
+###################
+Desafios Opicionais
+###################
+- Faça com que seja possível ver a quantidade de lucro que a Loja teve no período(saiba que será necessário criar uma nova tabela no banco de dados para conseguir fazer isso de maneira eficaz)
+
+- Fazer com que as lojas possam cadastrar, editar cupoms de disconto. A loja só pode deletar o cupom caso nenhum usuário tenha usado o cupom. E fazer com que os clientes consigam usar o cupom para ganhar o desconto no carrinho de acordo com as regras do cupom e quantidade disponível
+
+- Fazer com que a lista de produtos nos acesso loja e cliente, possam ser filtrados por loja, categorias, preço mínimo, preço máximo, nome do produto, msotrar apenas os que possuem estoque
+
 
 ###################
 What is CodeIgniter
