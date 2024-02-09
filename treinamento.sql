@@ -271,6 +271,13 @@ ALTER TABLE `produto_categoria`
   ADD CONSTRAINT `produto_categoria_ibfk_2` FOREIGN KEY (`id_categoria`) REFERENCES `categoria` (`id_categoria`);
 COMMIT;
 
+ALTER TABLE produto ADD id_usuario_loja INT NOT NULL AFTER id_produto;
+
+ALTER TABLE `treinamento`.`produto` ADD INDEX `idx_produto_nome_loja` (`nome`, `id_usuario_loja`);
+ALTER TABLE `treinamento`.`produto` ADD INDEX `idx_produto_nome_loja` (`id_usuario_loja`, `nome`);
+ALTER TABLE `treinamento`.`produto` ADD INDEX `idx_produto_nome_preco_loja` (`id_usuario_loja`, `preco`, `nome`);
+ALTER TABLE `treinamento`.`produto` ADD INDEX `idx_produto_nome_preco_estoque_loja` (`id_usuario_loja`, `nome`, `preco`, `estoque`);
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
