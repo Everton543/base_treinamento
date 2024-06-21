@@ -55,6 +55,8 @@ Primeiros passos
 
 18- Click no botão Executar
 
+19- No arquivo base que foi clonado do projeto, mude o nome do arquivo .env-example para .env
+
 ###################
 Desafio
 ###################
