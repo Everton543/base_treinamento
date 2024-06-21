@@ -57,6 +57,8 @@ Primeiros passos
 
 19- No arquivo base que foi clonado do projeto, mude o nome do arquivo .env-example para .env
 
+20- No arquivo .env tem variaveis que é usado para usar o banco de dados incluindo o nome do banco de dados(database.default.database), nome do usuário(database.default.username), senha(database.default.password). Para configurar essas informações basta mudar o valor que estão ao lado, mas caso você tenha seguido o passo a passo exato provavelmente não será necessário fazer qualquer alteração.
+
 ###################
 Desafio
 ###################
